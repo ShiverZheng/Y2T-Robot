@@ -1,0 +1,16 @@
+{
+    "port": 8080,
+    "username": "<YOUR_GIT_USERNAME>",
+    "password": "<YOUR_GIT_PASSWORD>",
+    "email": "<YOUR_GIT_EMAIL>",
+    "registry": "<YOUR_GIT_REPOSITORY_REGISTRY>",
+    "protocol": "<YOUR_YAPI_SERVICE_PROTOCOL>",
+    "hostname": "<YOUR_YAPI_SERVICE_HOSTNAME>",
+    "pathname": "/api/open/plugin/export-full",
+    "projectUrl": "<YOUR_PROJECT_URL_IN_YAPI_SERVICE>",
+    "dingTalkUrl": "https://oapi.dingtalk.com/robot/send",
+    "accessToken": "<YOUR_DING_DING_ACCESS_TOKEN>",
+    "appSecret": "<YOUR_DING_DING_APP_SECRET>",
+    "projectsConfigsUrl": "<THE_URL_WHERE_YOU_STORE_THE_YAPI_PROJECT_CONFIGURATION>",
+    "secret": "<YOUR_PROJECT_TOKEN_ENCRYPTED_KEY>"
+}

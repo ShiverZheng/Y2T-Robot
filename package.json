@@ -1,0 +1,51 @@
+{
+  "name": "y2t-robot",
+  "version": "1.0.0",
+  "description": "Use Y2T service by DingTalk robot",
+  "main": "index.ts",
+  "scripts": {
+    "serve": "npm run build && node dist/index.js",
+    "publish": "npm publish /usr/src/app/generated",
+    "publish:shell": "sh publish.sh",
+    "build": "rm -rf dist && mkdir dist && cp ./config.json dist/config.json && tsc",
+    "ci": "npm run build",
+    "start:docker": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShiverZheng/Y2T.git"
+  },
+  "keywords": [
+    "YApi",
+    "TypeScript",
+    "generator",
+    "types",
+    "DingTalk Robot",
+    "dingbot"
+  ],
+  "author": "Sivan Zheng",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ShiverZheng/Y2T-Robot/issues"
+  },
+  "homepage": "https://github.com/ShiverZheng/Y2T-Robot#readme",
+  "devDependencies": {
+    "@types/crypto-js": "4.0.2",
+    "@typescript-eslint/eslint-plugin": "4.29.2",
+    "@typescript-eslint/parser": "4.29.2",
+    "eslint": "7.32.0"
+  },
+  "dependencies": {
+    "@types/node": "10.17.60",
+    "@types/prettier": "2.3.2",
+    "@types/uuid": "8.3.1",
+    "axios": "0.21.1",
+    "crypto-js": "4.1.1",
+    "json-to-ts": "1.7.0",
+    "json5": "2.2.0",
+    "npm-cli-login": "0.1.1",
+    "prettier": "2.3.2",
+    "promisify-child-process": "4.1.1",
+    "typescript": "4.3.5"
+  }
+}
